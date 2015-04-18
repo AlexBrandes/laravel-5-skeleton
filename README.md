@@ -57,7 +57,11 @@ The app is set up with Sass and js in logical groupings and then concatenated by
 ##App Directory
 I've left everything as is in the app directory with the exception of a few things. I've moved all models into app/db to keep them logically separated from the rest of the app code. I've also added a "CheckPermissions" middleware file that allows you to define permissions requirements at the route level. Just include permissions in the middleware key of the route and add a permissions key with an array of required permissions.
 
-##License
-Consider this beerware. Share with anyone that might find it useful and if you like it, buy me a beer if we ever happen to meet in person. Laravel is under an MIT license so please respect that. 
+##Start Using It
+```bash
+php artisan serve;
+```
+Then navigate to localhost:8000 to get started. Enjoy!
 
-Enjoy!
+##License
+Consider this beerware. Share with anyone that might find it useful and if you like it, buy me a beer if we ever happen to meet in person. Laravel is under an MIT license. 
