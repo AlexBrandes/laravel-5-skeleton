@@ -1,0 +1,14 @@
+@mixin font-family($style) {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif !important;
+
+    @if $style == bold {
+        font-weight: 700;
+    }
+    @if $style == light {
+        font-weight: 300;
+    }
+    // regular
+    @else {
+        font-weight: 400;
+    }
+}

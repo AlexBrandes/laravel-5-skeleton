@@ -1,0 +1,59 @@
+$header-menu-height: 50px;
+
+/***** START APP.CSS *****/
+#dashboard {
+	background-color: #e4e7ea;
+}
+.logo-panel, 
+.header-bar {
+    height: $header-menu-height;
+}
+.header-menu {
+	height: $header-menu-height;
+
+	li {
+		height: inherit;
+	}
+	.dropdown-menu {
+		margin-left: -116px;
+		border: 1px solid #e7e7e7;
+	}
+	.dropdown-toggle {
+		height: inherit;
+		display: block;
+		padding: 12px 16px;
+	}
+	.dropdown-toggle .caret {
+		color: #FFFFFF;
+	}
+}
+.left-panel:after {
+	left: inherit;
+}
+.main-panel .content-panel,
+.panel {
+	overflow-x: scroll;
+}
+
+// General Styles
+table.table-striped.table-hover > tbody > tr:hover,
+table.table-striped.table-hover > tbody > tr:hover td,
+table.table-striped-thirds.table-hover > tbody > tr:hover,
+table.table-striped-thirds.table-hover > tbody > tr:hover td {
+	background-color: #EEEEEE;
+}
+table.table-striped-thirds > tbody > tr:nth-of-type(4n-1) {
+	background-color: transparent;
+}
+table.table-striped-thirds > tbody > tr:nth-of-type(4n-3) {
+	background-color: #f9f9f9;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.block {
+	display: block;
+}
+.btn-link.mini-toggle {
+	font-size: 12px;
+}
